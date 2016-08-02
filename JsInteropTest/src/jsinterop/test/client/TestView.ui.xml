@@ -1,0 +1,11 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<p>Click only works if compiled with generateJsInteropExports flag set</p>
+		<button ui:field="testButton">Click to test</button>
+	</g:HTMLPanel>
+</ui:UiBinder> 
