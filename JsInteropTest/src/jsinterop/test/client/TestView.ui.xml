@@ -7,5 +7,8 @@
 	<g:HTMLPanel>
 		<p>Click only works if compiled with generateJsInteropExports flag set</p>
 		<button ui:field="testButton">Click to test</button>
+		<p>Anonymous handler test</p>
+		<button ui:field="testButton2">Click to test</button>
+		<p ui:field="button3Text">Dynamic button test</p>
 	</g:HTMLPanel>
 </ui:UiBinder> 
